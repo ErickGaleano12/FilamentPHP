@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Filament\Resources\BrandResource\RelationManagers;
+namespace App\Filament\Resources\CategoryResource\RelationManagers;
 
 use App\Enums\ProductTypeEnum;
 use App\Models\Product;
@@ -15,7 +15,7 @@ use Illuminate\Support\Str;
 
 class ProductsRelationManager extends RelationManager
 {
-    protected static string $relationship = 'products';
+    protected static string $relationship = 'product';
 
     public function form(Form $form): Form
     {

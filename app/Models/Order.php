@@ -17,7 +17,7 @@ class Order extends Model
         'number', 
         'total_price', 
         'status', 
-        'shopping_price', 
+        'shipping_price', 
         'notes'
     ];
 
